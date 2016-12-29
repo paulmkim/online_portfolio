@@ -1,1 +1,1 @@
-Paul Hyungmin Kim's online portfolio.
+Paul Hyungmin Kim's online portfolio
