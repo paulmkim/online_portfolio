@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Paul Kim - Projects</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'home/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{% static 'home/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="{% static 'home/css/projects.css' %}" rel="stylesheet">
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll top-hidden" href="{% url 'index' %}" style="color:#ffffff">Paul Hyungmin Kim</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right">
+		</ul>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <section id="heading">
+    <div class="title">
+        <h1> Projects </h1>
+    </div>
+    </section>
+
+    <section class="allCategories" id="Highlights">
+	<h3 class="subCategory"> Highlights </h3>
+	<ul>
+		<li> <b>Mini Java Compiler:</b> built a fully operational mini-java compiler.
+		<li> <b>NOMS:</b> Android app surpassing Yelp
+	</ul>
+	
+    </section>
+    <section class="allCategories" id="Hackathon">
+	<h3 class="subCategory"> Hackathon </h3>
+	
+    </section>
+    <section class="allCategories" id="Personal">
+	<h3 class="subCategory"> Personal </h3>
+	
+    </section>
+    <section class="allCategories" id="Academic">
+	<h3 class="subCategory"> Academic </h3>
+	
+    </section>
+    <section class="allCategories" id="lab">
+	<h3 class="subCategory"> Publications </h3>
+	
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                    <span class="copyright" style="position: center">Copyright &copy; 2016 Paul Kim</span>
+                         <ul class="list-inline social-buttons" style="position: center">
+                             <li><a href="mailto:paulmkim@ucla.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+                             </li>
+                             <li><a href="https://github.com/paulmkim"><i class="fa fa-github"></i></a>
+                             </li>
+                             <li><a href="https://www.linkedin.com/in/paul-hyungmin-kim"><i class="fa fa-linkedin"></i></a>
+                             </li>
+                             <li><a href="https://www.facebook.com/paul.kim.505" target="_blank"><i class="fa fa-facebook"></i></a>
+                             </li>
+                         </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

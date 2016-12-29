@@ -1,0 +1,9 @@
+To run on virtual environment: source ~/eb-virt/bin/activate
+
+To run on localhost (from project root): python manage.py runserver
+
+To update to elastic beanstalk (from project root): 
+./deploy
+(or manually)
+	python manage.py collectstatic
+	eb deploy
