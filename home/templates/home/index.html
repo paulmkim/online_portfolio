@@ -114,7 +114,6 @@
    </section>
 
 
-
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
@@ -142,12 +141,25 @@
     </section>
 
 
-
-
-    <!-- Team Section -->
+    <!-- Experiences Section -->
     <section id="experiences" class="bg-light-gray">
         <div class="container">
        		<center><h1>Exeriences</h1></center>
+		<p align="center">
+			<!-- TODO: make buttons transparent -->
+			<a class="experienceButton" href="{% url 'projects' %}">
+				<img class="experienceImage" id="experience1" src="{% static 'home/img/lasr.png' %}"/>
+				<span class="experienceText">UCLA Security Lab (LASR)</span>
+			</a>
+			<a class="experienceButton" href="http://www.teamusa.org/USA-Archery" target="_blank">
+				<img class="experienceImage" id="experience2" src="{% static 'home/img/USA_Archery.jpg' %}"/>
+				<span class="experienceText">USA Archery<br>Scoring Team</span>
+			</a>
+			<a class="experienceButton" href="http://uclaclubsports.com/index.aspx?path=archery" target="_blank">
+				<img class="experienceImage" id="experience3" src="{% static 'home/img/UCLA_Archery.jpg' %}"/>
+				<span class="experienceText">UCLA Archery Officer</span>
+			</a>
+		</p>
         </div>
     </section>
 
@@ -178,16 +190,6 @@
         <div class="container">
             <div class="row">
                     <span class="copyright" style="position: center">Copyright &copy; 2016 Paul Kim</span>
-                         <ul class="list-inline social-buttons" style="position: center">
-                             <li><a href="mailto:paulmkim@ucla.edu" target="_blank"><i class="fa fa-envelope"></i></a>
-                             </li>
-                             <li><a href="https://github.com/paulmkim"><i class="fa fa-github"></i></a>
-                             </li>
-                             <li><a href="https://www.linkedin.com/in/paul-hyungmin-kim"><i class="fa fa-linkedin"></i></a>
-                             </li>
-                             <li><a href="https://www.facebook.com/paul.kim.505" target="_blank"><i class="fa fa-facebook"></i></a>
-                             </li>
-                         </ul>
             </div>
         </div>
     </footer>
