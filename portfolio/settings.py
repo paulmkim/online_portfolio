@@ -19,13 +19,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'n7*97g%3m+z08wc+jw!-m$&utv!_-habi-@w&0c&3+y=7gkm2g'
-
+SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 SECURE_SSL_REDIRECT = False
 ALLOWED_HOSTS = [
+	'www.paulhmkim.com',
 	'portfolio-env.hsqkmufkrn.us-west-1.elasticbeanstalk.com',
 	'localhost',
 	'127.0.0.1',
