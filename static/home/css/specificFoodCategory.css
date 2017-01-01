@@ -36,12 +36,6 @@ span {
   font-weight: 700;
   font-size: 30px;
 }
-
-li {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-}
 a:hover {
   color: #222222;
 }
@@ -52,7 +46,7 @@ a:hover {
 
 /* 	NAVIGATION BAR 	*/
 .navbar-custom {
-  background-image: url('../img/home_background.jpg');
+  background-color: #222222;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -135,54 +129,67 @@ a:hover {
   }
 }
 
-section#heading {
-  padding: 50px 0 0 0;
-}
-
-@media (min-width: 768px) {
-  section#heading {
-	padding: 100px 0 0 0;
-  }
-}
-
-section#heading .title {
-  text-align: center;
-}
-
-section.allCategories {
-}
-
-section.allCategories .foodCategoryButton {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 100px;
-  padding: 0 16px;
-}
-
-section.allCategories .foodCategoryButton .foodCategoryImage{
-  width: 250px;
-  height: 250px;
-  border: 0;
-  background-size: 100%;
-  margin: 25px 25px 0px 25px;
+header {
+  background-image: url('../img/home_background.jpg');
   background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
 }
-
-section.allCategories .foodCategoryButton .foodCategoryText{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -50%;
-    width: 100%;
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-
-section.allCategories .foodCategoryButton .foodCategorySubtext{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -50%;
-    width: 100%;
-    font-size: 18px;
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+header .resume-CV {
+	font-size: 20px;
+	text-align: center;
+}
+header .resume {
+	padding: 0px 10px;
+}
+header .CV {
+	padding: 0px 10px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
 }
 
 footer {
@@ -190,7 +197,7 @@ footer {
   padding: 25px 0;
   text-align: center;
 
-}
+} 
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -235,14 +242,6 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
-
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-  outline: none;
-}
 body {
-  background-color: #eeeeee;
   webkit-tap-highlight-color: #fed136;
 }

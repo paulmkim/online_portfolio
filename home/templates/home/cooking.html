@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Paul Kim - Archery</title>
+    <title>Paul Kim - Cooking</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{% static 'home/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -35,27 +35,82 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                </ul>
+		<ul class="nav navbar-nav navbar-right">
+		</ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-		<img src= {% static 'home/img/cooking.png' %} style="width: 250px; height: 250px; background-size: 100%;"/>
-                <div class="intro-heading">Cooking</div>
-                <div class="intro-lead-in">Coming Soon</div>
-            </div>
+    <section id="heading">
+    <div class="title">
+	<a href="{% url 'index' %}#interests"><img src = {% static 'home/img/cooking.png' %} style="width: 250px; height: 250px; background-size: 100%;"/></a>
+        <h1> Cooking </h1>
+    </div>
+    </section>
+
+
+    <section class="allCategories">
+	<div class="container">
+		<p align="center">
+                        <a class="foodCategoryButton" href="{% url 'highlights' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Highlights</span>
+                        </a>
+
+			<br><br>
+
+                        <a class="foodCategoryButton" href="{% url 'breakfast' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Breakfast</span>
+                        </a>
+                        <a class="foodCategoryButton" href="{% url 'stock' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Stock
+				<span class="foodCategorySubtext">(Soups, Stews)</span></span>
+                        </a>
+                        <a class="foodCategoryButton" href="{% url 'fastCooking' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Fast Cooking
+				<span class="foodCategorySubtext">(Steaks, Chops, Chicken, Fish)</span></span>
+                        </a>
+
+			<br><br>
+
+                        <a class="foodCategoryButton" href="{% url 'salads' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Salads</span>
+                        </a>
+                        <a class="foodCategoryButton" href="{% url 'groundMeat' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Ground Meat
+				<span class="foodCategorySubtext">(Balls, Loaves, Links, Burgers)</span></span>
+                        </a>
+                        <a class="foodCategoryButton" href="{% url 'roasts' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Roasts
+				<span class="foodCategorySubtext">(Checken, Turkey, Prime Rib)</span></span>
+                        </a>
+
+			<br><br>
+
+                        <a class="foodCategoryButton" href="{% url 'pasta' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Pasta</span>
+                        </a>
+                        <a class="foodCategoryButton" href="{% url 'fried' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Fried</span>
+                        </a>
+                        <a class="foodCategoryButton" href="{% url 'desserts' %}">
+                                <img class="foodCategoryImage" src="{% static 'home/img/comingSoon.jpg' %}"/>
+                                <span class="foodCategoryText">Desserts</span>
+                        </a>
+                </p>
         </div>
-    </header>
+   </section>
+
+    </section>
 
     <footer>
         <div class="container">

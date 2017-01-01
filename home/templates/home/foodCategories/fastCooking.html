@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Paul Kim - Archery</title>
+    <title>Paul Kim - Cooking - Fast Cooking</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{% static 'home/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -17,7 +17,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="{% static 'home/css/poker.css' %}" rel="stylesheet">
+    <link href="{% static 'home/css/specificFoodCategory.css' %}" rel="stylesheet">
 </head>
 
 <body id="page-top" class="index">
@@ -39,6 +39,9 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+			<li>
+				<a class="page-scroll" href="{% url 'cooking' %}">Back</a>
+			</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -50,8 +53,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-		<a href="{% url 'index' %}#interests"><img src= {% static 'home/img/poker.png' %} style="width: 250px; height: 250px; background-size: 100%;"/></a>
-                <div class="intro-heading">Poker</div>
+		<!--<img src= {% static 'home/img/comingSoon.jpg' %} style="width: 250px; height: 250px; background-size: 100%;"/>-->
+                <div class="intro-heading">Fast Cooking</div>
                 <div class="intro-lead-in">Coming Soon</div>
             </div>
         </div>
