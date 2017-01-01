@@ -36,6 +36,12 @@ span {
   font-weight: 700;
   font-size: 30px;
 }
+
+li {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
 a:hover {
   color: #222222;
 }
@@ -46,7 +52,7 @@ a:hover {
 
 /* 	NAVIGATION BAR 	*/
 .navbar-custom {
-  background-color: #222222;
+  background-image: url('../img/home_background.jpg');
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -129,67 +135,32 @@ a:hover {
   }
 }
 
-header {
-  background-image: url('../img/home_background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
+section#heading {
+  padding: 50px 0 0 0;
 }
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
-header .resume-CV {
-	font-size: 20px;
-	text-align: center;
-}
-header .resume {
-	padding: 0px 10px;
-}
-header .CV {
-	padding: 0px 10px;
-}
+
 @media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+  section#heading {
+	padding: 100px 0 0 0;
   }
-  header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
+}
+
+section#heading .title {
+  text-align: center;
+}
+
+section.allCategories {
+  padding: 0 70px 50px 300px;
+}
+
+section.mainCategory {
+  padding: 0px 250px;
+}
+
+section.allCategories .subCategory {
+}
+
+section.allCategories li{
 }
 
 footer {
@@ -197,7 +168,7 @@ footer {
   padding: 25px 0;
   text-align: center;
 
-} 
+}
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -242,6 +213,14 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
 body {
+  background-color: #eeeeee;
   webkit-tap-highlight-color: #fed136;
 }

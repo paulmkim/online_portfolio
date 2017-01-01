@@ -7,3 +7,7 @@ To update to elastic beanstalk (from project root):
 (or manually)
 	python manage.py collectstatic
 	eb deploy
+
+to add SECRET_KEY to environment variables:
+add following line to ~/.bashrc and ~/.profile
+	export SECRET_KEY = "secret_key_here"
