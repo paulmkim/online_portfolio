@@ -49,15 +49,12 @@
     </section>
 
     <section class="allCategories" id="Highlights">
-	<h3 class="subCategory"> Highlights </h3>
+<!--	<h3 class="subCategory"> Highlights </h3>
 	<ul>
-		<li> <b>Mini Java Compiler:</b> built a fully operational mini-java compiler.</li>
-		<li> <b>NOMS:</b> </li>
-		<li> <b>Prereq:</b> </li>
-		<li> <b>LoLCounter:</b> </li>
-		<li> <b>ObjectRekt:</b> Automated termal cameraman. </li>
-		<li> <b>Deter Security Suite:</b> </li> 
+		<li> <b>Mini Java Compiler:</b> built a fully operational mini-java compiler.
+		<li> <b>NOMS:</b> Android app surpassing Yelp
 	</ul>
+-->	
     </section>
     <section class="allCategories" id="Hackathon">
 	<h3 class="subCategory"> Hackathon </h3>
@@ -74,23 +71,32 @@
 		<li> <b>POKER AI:</b> Basic Texas Holdem decision aid. </li>
 	</ul>
     </section>
-    <section class="allCategories" id="lab">
-	<h3 class="subCategory"> Publications </h3>
-	<ul>
-		<li> <b> INTERLOC:</b> Interference-aware RSSI-Based Localization and Sybil Attack Detection Mechanism for Vehicular Ad Hoc Networks. </li>
-		<li> <b> GHOST:</b> Vehicular Ad Hoc Network secret communication channel through 802.11p protocol. </li>
-	</ul>
-    </section>
     <section class="allCategories" id="Academic">
 	<h3 class="subCategory"> Academic </h3>
 	<ul>
-		<li><b>CS 188: Scalable Internet Services</b><ul>
-			<li> LoLCounter: Web application built on Ruby on Rails focusing on large-scale traffic handling</li>
+		<li><b>CS 132: Compiler Construction</b><ul>
+			<li> </li>
+			<li> </li>
+		</ul></li>
+		<br>
+		<li><b>CS 130: Software Engineering</b><ul>
+			<li> </li>
+			<li> </li>
 		</ul></li>
 		<br>
 		<li><b>CS 161: Fundamentals of Artificial Intelligence</b><ul>
-			<li> River crossing problem solver</li>
-			<li> N-Queens solver</li>
+			<li> </li>
+			<li> </li>
+		</ul></li>
+		<br>
+		<li><b>CS 136: Introduction to Computer Security</b><ul>
+			<li> </li>
+			<li> </li>
+		</ul></li>
+		<br>
+		<li><b>CS 118: Computer Network Fundamentals</b><ul>
+			<li> HTTP Client and Server </li>
+			<li> TCP-like Transport Protocol over UDP</li>
 		</ul></li>
 		<br>
 		<li><b>CS 152A: Introductory Digital Design Laboratory</b><ul>
@@ -100,12 +106,15 @@
 			<li>Use of Xilinx ISE, ISim, and iMPACT interface to midify and test Verilog code operating through a Nexys3 FPGA board </li>
 		</ul></li>
 		<br>
-		<li><b>CS 136: Introduction to Computer Security</b><ul>
-			<li> Deterlab Security Suite</li>
+		<li><b>CS 188: Scalable Internet Services</b><ul>
+			<li> LoLCounter: Web application built on Ruby on Rails focusing on large-scale traffic handling</li>
 		</ul></li>
 		<br>
-		<li><b>CS 132: Compiler Construction</b><ul>
-			<li> MiniJava compiler</li>
+		<li><b>CS 111: Operating Systems Principles</b><ul>
+			<li> P2P client-side and server-side attack and defense </li>
+			<li> Linux file system driver</li>
+			<li> Ramdisk Linux kernel module </li>
+			<li> Parallelized shell prototype </li>
 		</ul></li>
 		<br>
 		<li><b>CS 131: Programming Languages</b><ul>
@@ -114,22 +123,6 @@
 			<li> Prolog: KenKen solver </li>
 			<li> Java: Forming and benchmark testing different parallelization models</li>
 			<li> OCaml: Manipulating context-free grammars and forming a parser</li>
-		</ul></li>
-		<br>
-		<li><b>CS 130: Software Engineering</b><ul>
-			<li> Prereq: Web application built on Django, focusing on industry standard development cycle</li>
-		</ul></li>
-		<br>
-		<li><b>CS 118: Computer Network Fundamentals</b><ul>
-			<li> HTTP Client and Server </li>
-			<li> TCP-like Transport Protocol over UDP</li>
-		</ul></li>
-		<br>
-		<li><b>CS 111: Operating Systems Principles</b><ul>
-			<li> P2P client-side and server-side attack and defense </li>
-			<li> Linux file system driver</li>
-			<li> Ramdisk Linux kernel module </li>
-			<li> Parallelized shell prototype </li>
 		</ul></li>
 		<br>
 		<li><b>CS 35L: Software Construction laboratory</b><ul>
@@ -155,6 +148,13 @@
 			<li> Simple ASCII "Zombie Survival" game </li>
 			<li> Basic encryption detection and decryption program </li>
 		</ul></li>
+	</ul>
+    </section>
+    <section class="allCategories" id="lab">
+	<h3 class="subCategory"> Publications </h3>
+	<ul>
+		<li> <b> INTERLOC:</b> Interference-aware RSSI-Based Localization and Sybil Attack Detection Mechanism for Vehicular Ad Hoc Networks. </li>
+		<li> <b> </b>
 	</ul>
     </section>
 
