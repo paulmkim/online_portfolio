@@ -13,6 +13,8 @@ urlpatterns = [
 
 	#projects
 	url(r'projects/$', views.projects, name='projects'),
+	url(r'projects/highlights/$', views.projectHighlights, name='projectHighlights'),
+
 
 	#food categories
 	url(r'cooking/highlights/$', views.highlights, name='highlights'),

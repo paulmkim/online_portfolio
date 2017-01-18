@@ -24,6 +24,10 @@ def projects(request):
 	context = {}
 	return render(request, 'home/projects.html', context)
 
+def projectHighlights(request):
+	context = {}
+	return render(request, 'home/projectHighlights.html', context)
+
 def highlights(request):
 	context = {}
 	return render(request, 'home/foodCategories/highlights.html', context)
