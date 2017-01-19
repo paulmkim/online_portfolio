@@ -123,8 +123,6 @@ a:hover {
     padding: 10px 0;
   }
   .navbar-custom.affix-top a.navbar-brand.page-scroll.top-hidden{
-	pointer-events: none;
-	opacity: 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
@@ -201,14 +199,24 @@ section {
   section {
     padding: 150px 0;
   }
-  section#aboutMe #portrait{
+  section.split #portrait{
     width: 40%;
     float: left;
   }
 
-  section#aboutMe #bio{
+  section.split #bio{
     width: 60%;
     float: right;
+    padding: 0 20px;
+  }
+
+  section.splitTwo #portrait{
+    width: 40%;
+    float: right;
+  }
+  section.splitTwo #bio{
+    width: 60%;
+    float: left;
     padding: 0 20px;
   }
 }
@@ -301,6 +309,16 @@ section#contact {
 section#contact .section-subheading {
 	font-size: 20px;
 }
+
+.highlightImg {
+  width: 250px;
+  height: 250px;
+  border: 0;
+  background-size: 100%;
+  margin: 25px 25px 0px 25px;
+  background-repeat: no-repeat;
+}
+
 
 footer {
   background-color: #222222;

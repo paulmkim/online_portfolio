@@ -121,22 +121,23 @@
        		<center><h1>Projects</h1></center>
 		<p align="center">
 			<!-- TODO: make buttons transparent -->
-			<a class="projectButton" href="{% url 'projects' %}">
+			<a class="projectButton" href="{% url 'projectHighlights' %}#DeterlabSecuritySuite">
 				<img class="projectImage" id="project1" src="{% static 'home/img/deterlab.jpg' %}"/>
 				<span class="projectText">Deterlab Security Suite</span>
 			</a>
-			<a class="projectButton" href="{% url 'projects' %}">
+			<a class="projectButton" href="{% url 'projectHighlights' %}#MiniJavaCompiler">
 				<img class="projectImage" id="project2" src="{% static 'home/img/miniJavaCompiler.png' %}"/>
 				<span class="projectText">Mini Java Compiler</span>
 			</a>
-			<a class="projectButton" href="{% url 'projects' %}">
+			<a class="projectButton" href="{% url 'projectHighlights' %}#Prereq">
 				<img class="projectImage" id="project3" src="{% static 'home/img/prereq.png' %}"/>
 				<span class="projectText">Prereq<br>(Web App)</span>
 			</a>
 		</p>
 		<br><br>
 		<p class="allProjects"> 
-			<a class="allProjectsLink" href="{% url 'projects' %}"><u>See All Projects</u></a> 
+			<a class="allProjectsLink" href="{% url 'projectHighlights' %}"><u>Project Highlights</u></a> <a class="allProjectsLink" href="{% url 'projects' %}"><u>All Projects</u></a>
+		</p>
             </div>
         </div>
     </section>
