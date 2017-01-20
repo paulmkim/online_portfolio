@@ -15,7 +15,7 @@ Beautification (Krystal)
 
 Project Highlights:
 Home page beautification (Krystal)
-Description review
+Prereq tree image
 
 Overall:
 Change yellow
