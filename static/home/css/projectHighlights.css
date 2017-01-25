@@ -1,3 +1,7 @@
+:root {
+        --main-color: #ff8800;
+	--active-color: #ff8800;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,14 +14,14 @@ p {
   line-height: 1.75;
 }
 a {
-  color: #fed136;
+  color: var(--main-color);
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
   outline: none;
-  color: #fec503;
+  color: var(--active-color);
 }
 h1,
 h2,
@@ -50,7 +54,7 @@ a:hover {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: var(--main-color);
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
@@ -59,14 +63,14 @@ a:hover {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: var(--active-color);
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -74,7 +78,7 @@ a:hover {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: var(--main-color);
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -85,18 +89,18 @@ a:hover {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: var(--main-color);
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: var(--main-color);
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: var(--active-color);
 }
 
 /* for larger screens */
@@ -361,7 +365,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: var(--main-color);
 }
 
 .btn:focus,
@@ -371,5 +375,5 @@ ul.social-buttons li a:active {
   outline: none;
 }
 body {
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: var(--main-color);
 }

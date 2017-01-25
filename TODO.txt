@@ -1,6 +1,4 @@
 home:
-Resume Update (Krystal)
-CV Upload (Krystal)
 About me BIOS (Krystal)
 About me picture (Nico)
 
@@ -18,9 +16,9 @@ Home page beautification (Krystal)
 Prereq tree image
 
 Overall:
-Change yellow
 Mobile check
-
+paulhmkim.com
+scroll+highlight error
 
 Future TODO:
 Poker Page
